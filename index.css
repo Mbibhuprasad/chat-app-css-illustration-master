@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Fraunces:wght@700&family=Hanken+Grotesk:wght@500&family=Inter:wght@400;700&family=Karla&family=Kumbh+Sans:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Montserrat:wght@500;700&family=Open+Sans&family=Outfit:wght@400;700&family=Poppins:wght@400;600&family=Raleway:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: hsl(270, 20%, 96%);
+    --left-bg: linear-gradient(180deg, hsl(293, 61%, 53%), hsl(264, 100%, 61%));
+    --mobile-top-bg: linear-gradient(90deg, hsl(264, 100%, 61%), hsl(293, 100%, 63%));
+    --mobile-video-bg: linear-gradient(90deg, hsl(293, 100%, 63%), hsl(264, 100%, 61%));
+    --violet: hsl(276, 100%, 81%);
+    --rado-button: hsl(289, 100%, 72%);
+    --left-chat-prgf: hsl(276, 55%, 52%);
+    --right-chat-prgf: hsl(271, 15%, 43%);
+    --place-holder: hsl(206, 6%, 79%);
+    --submit-bg: hsl(271, 36%, 24%);
+    --white: hsl(0, 0%, 100%);
+    --heading:  hsl(271, 36%, 24%);
+    --paragraf: hsl(270, 7%, 64%);
+    --right-bg: rgb(230, 230, 230);
+    --left-chat-bg: rgb(217, 217, 217);
+}
+
+main {
+    height: 98vh;
+}
+
+body {
+    font-family: Rubik;
+    background-color: var(--bg-color);
+}
+
+.container {
+    flex-basis: 70%;
+    display: flex;
+    margin-left: 23.5%;
+    align-items: center;
+}
+
+.left-block {
+    margin-right: 10rem;
+}
+
+.mobile-container {
+    width: 17rem;
+    padding: 0.65rem;
+    border-radius: 1.7rem;
+    background-color: var(--white);
+    box-shadow: 0px 13px 51px -12.4px rgb(170, 170, 170);
+}
+
+.mobile-screen {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.7rem;
+    background-color: var(--bg-color);
+    
+}
+
+.user-details {
+    background-image: var(--mobile-top-bg);
+    border-radius: 1.4rem 1.4rem 0.5rem 0.5rem;
+}
+
+.lense-block {
+    width: 10rem;
+    height: 1.3rem;
+    margin: auto;
+    border-radius: 0 0 1.1rem 1.1rem;
+    background-color: var(--white);
+}
+
+.user-id {
+    padding: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-left {
+    display: flex;
+    align-items: center;
+}
+
+.user-left i {
+    color: var(--white);
+    font-size: 0.8rem;
+}
+
+.user-img {
+    width: 1.7rem;
+    height: 1.7rem;
+    margin:0rem 0.5rem 0 0.3rem;
+    border-radius: 50%;
+    border: 2px solid var(--bg-color);
+}
+
+.user-img img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.user-name h4 {
+    font-size: 0.8rem;
+    color: var(--bg-color);
+    font-weight: 500;
+}
+
+.user-name p {
+    font-size: 0.6rem;
+    color: var(--violet);
+}
+
+.white-dot {
+    width: 0.2rem;
+    height: 0.2rem;
+    margin: 0.1rem 1rem;
+    border-radius: 50%;
+    background-color: var(--bg-color);
+}
+
+.middle-block {
+    padding: 0.5rem;
+}
+
+.first-section p {
+    background-color: var(--left-chat-bg);
+    margin-bottom: 0.5rem;
+    font-size: 0.65rem;
+    border-radius: 0.6rem 0.6rem 0.6rem 0.2rem;
+    padding: 0.5rem;
+    width: 11rem;
+    color: var(--left-chat-prgf);
+}
+
+.secnd-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.image-block {
+    margin: 0.2rem 0;
+}
+
+.image-block img {
+    width: 2.5rem;
+    border-radius: 0.5rem;
+    margin: 0.1rem;
+}
+
+.secnd-section p{
+    background-color: var(--white);
+    margin-bottom: 0.4rem;
+    font-size: 0.65rem;
+    border-radius: 0.6rem 0.6rem 0.2rem 0.6rem;
+    padding: 0.5rem;
+    width: max-content;
+}
+
+.third-section p {
+    background-color: var(--left-chat-bg);
+    margin: 0.5rem 0;
+    font-size: 0.65rem;
+    border-radius: 0.6rem 0.6rem 0.6rem 0.2rem;
+    padding: 0.5rem;
+    line-height: 0.8rem;
+    width: 10.5rem;
+    color: var(--left-chat-prgf);
+}
+
+.video-clip {
+    display: flex;
+    justify-content: space-between;
+    background-image: var(--mobile-video-bg);
+    align-items: center;
+    margin-bottom: 0.4rem;
+    color: var(--white);
+    font-size: 0.7rem;
+    border-radius: 0.6rem 0.6rem 0.6rem 0.2rem;
+    padding: 0.7rem;
+    width: 12rem;
+}
+
+.left-vid {
+    display: flex;
+    align-items: center;
+}
+
+.circle {
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.3rem;
+    border: 2px solid var(--rado-button);
+    border-radius: 50%;
+}
+
+.typing{
+    width: 100%;
+    margin: 0.3rem 0;
+    background-color: var(--white);
+    border-radius: 1.2rem;
+    color: var(--place-holder);
+    padding:0.2rem 0.2rem 0.2rem 1rem;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.send {
+    padding: 0.2rem;
+    color: var(--white);
+    border-radius: 50%;
+    width: 1.3rem;
+    border: none;
+    background-color: var(--submit-bg);
+}
+
+
+.content {
+    max-width: 25rem;
+    margin:15rem auto;
+}
+
+.content h1{
+    color: var(--heading);
+    font-weight: 500;
+    margin-bottom: 1.3rem;
+
+}
+
+.content p {
+    color: var(--paragraf);
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+  
+
+.left-bg {
+    height: 82vh;
+    width: 31.5%;
+    border-radius: 0 0 500px 500px;
+    background-image: var(--left-bg);
+    position: absolute;
+    top: 0;
+    left: -67px;
+    z-index: -1;
+}
+
+.right-bg {
+    height: 82vh;
+    width: 31.5%;
+    border-radius: 500px 500px 0 0;
+    background-color: var(--right-bg);
+    position: absolute;
+    z-index: -1;
+    right: -7%;
+    bottom: 0;
+}
+
+@media screen and (max-width:900px){
+    main {
+        height: 100%;
+    }
+
+    .mobile-container {
+       margin: 0 25%;
+    }
+
+    .container {
+        margin: 5rem 0;
+        flex-basis: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .content {
+        margin:5rem auto;
+        text-align: center;
+    }
+    .left-bg {
+        width: 50%;
+        height: 55%;
+        border-radius: 0px  0px 1000px 0px;
+        left: 0;
+    }
+
+    .right-bg {
+        width: 50%;
+        right: 0;
+        height: 60vh;
+        border-radius: 1000px  0px 0px 0px;
+    }
+}
