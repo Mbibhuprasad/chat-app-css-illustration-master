@@ -212,11 +212,11 @@ body {
 }
 
 .send {
-    padding: 0.2rem;
+    padding: 0.3rem;
     color: var(--white);
     border-radius: 50%;
-    width: 1.6rem;
     border: none;
+    width: 1.6rem;
     background-color: var(--submit-bg);
 }
 
